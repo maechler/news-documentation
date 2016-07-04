@@ -301,6 +301,8 @@ previewHiddenRecords
 
          .. note:: Be aware to secure the page (e.g. using a TS condition to make it available only if an BE user is logged in) as this page could be called by anyone using any news record uid to see its content.
 
+         .. note:: If set, any hidden records on the current page are shown as well!
+
 .. _tsStartingpoint:
 
 startingpoint
