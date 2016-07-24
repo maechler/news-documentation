@@ -30,6 +30,16 @@ A nice solution would be to use this JavaScript jQuery snippet:
 		}
 	}
 
+Creating links with fluid
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Besides the ViewHelper ``<n:link />`` you can also use the ViewHelpers of flid itself:
+
+.. code-block:: xml
+
+	<f:link.page pageUid="13" additionalParams="{tx_news_pi1: {controller: 'News',action: 'detail', news:newsItem.uid}}">{newsItem.title}</f:link.page>
+	<a href="{f:uri.page(pageUid:13,additionalParams:'{tx_news_pi1:{controller:\'News\',action:\'detail\',news:newsItem.uid}}')}">{newsItem.title}xxx</a>
+
 
 Render category rootline
 ^^^^^^^^^^^^^^^^^^^^^^^^
