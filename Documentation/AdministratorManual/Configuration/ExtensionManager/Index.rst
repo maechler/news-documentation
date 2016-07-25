@@ -29,7 +29,6 @@ Properties
 	archiveDate_                          basic                                 date
 	pageModuleFieldsCategory_             basic                                 title,description
 	pageModuleFieldsNews_                 basic
-	showMediaDescriptionField_            records                               0
 	rteForTeaser_                         records                               1
 	tagPid_                               records                               1
 	prependAtCopy_                        records                               1
@@ -37,7 +36,6 @@ Properties
 	categoryBeGroupTceFormsRestriction_   records
 	contentElementRelation_               records                               0
 	manualSorting_                        records                               0
-	useFal_                               records                               fal
 	dateTimeNotRequired_                  records                               fal
 	showAdministrationModule_             backend modules                       0
 	showImporter_                         backend modules                       0
@@ -92,14 +90,6 @@ The syntax is: ::
 
 .. _extensionManagerShowMediaDescriptionField:
 
-showMediaDescriptionField
-"""""""""""""""""""""""""
-If set, a description field for media elements is shown.
-
-.. note::
-	This is just for non FAL relations!
-
-.. _extensionManageRrteForTeaser:
 
 rteForTeaser
 """"""""""""
@@ -190,17 +180,6 @@ manualSorting
 If set, news records can be manually sorted in the list view by the well known icons "up" and "down".
 
 .. _extensionManagerUseFal:
-
-useFal
-""""""
-The following options are available:
-
-- **Yes**: Enables usage of FAL relations
-- **No**: Hides the relations to FAL elements
-- **Both**: The old and the new media relations are used
-- **Fal & Multimedia**: Enables usage of FAL relations + the old media relation, limited to type "multimedia"
-
-.. _extensionManagerDateTimeNotRequired:
 
 dateTimeNotRequired
 """""""""""""""""""

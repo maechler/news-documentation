@@ -1,0 +1,50 @@
+5.0.0 - 2016/xx/xx<
+==================
+
+
+.. only:: html
+
+.. contents::
+:local:
+        :depth: 3
+
+
+Important changes
+-----------------
+
+Removal of old code
+^^^^^^^^^^^^^^^^^^^
+
+Pre-FAL relations
+"""""""""""""""""
+Before FAL, EXT:news used to have custom relations to own media files and related files. Those 2 relations and all related code has been removed. This includes
+
+- TCA
+- Model
+- Every migration and wizard
+- Any media renderer which have been based the old relations
+
+If you are using the FAL relations and the old ones togehter in one project, you need to migrate those records! There is **no** migration available or planned. Either write it on your own or get in contact with me (I can not do it for free!)
+
+Wizards & Migrations
+""""""""""""""""""""
+Every previous available wizard and migration code has been removed. This includes:
+
+- Migration from custom category records to sys_category
+- Migration of the tt_content relation
+
+ClassAliasMapping
+"""""""""""""""""
+The mapping from non-namespace classes to the namespace classes has been removed.
+
+Repositioning of the tt_content relation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The relation to content elements has been moved to a separate tab.
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+        TBD
+
+This list has been created by using ``git log --since="2015/xx/xx" --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short``.

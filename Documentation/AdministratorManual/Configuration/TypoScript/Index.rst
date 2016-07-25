@@ -477,7 +477,7 @@ excludeAlreadyDisplayedNews
    Description
          :typoscript:`plugin.tx_news.settings.excludeAlreadyDisplayedNews =1`
 
-         If checked, news items which are already rendered are excluded in the current plugin. 
+         If checked, news items which are already rendered are excluded in the current plugin.
          **To exclude news items, the viewHelper <n:excludeDisplayedNews newsItem="{newsItem}" /> needs to be added to the template.**
          .. note:: The order of rendering in the frontend is essential as the information which news record is shown and should not be included anymore is fetched during runtime.
 
@@ -987,9 +987,6 @@ interfaces
          ::
 
             interfaces {
-           	media {
-           		video = GeorgRinger\News\MediaRenderer\Audio\Mp3Html5,GeorgRinger\News\MediaRenderer\Audio\Mp3,GeorgRinger\News\MediaRenderer\Video\Quicktime,GeorgRinger\News\MediaRenderer\Video\File,GeorgRinger\News\MediaRenderer\Video\Youtube,GeorgRinger\News\MediaRenderer\Video\Vimeo,GeorgRinger\News\MediaRenderer\Video\Videosites
-           	}
            	falMedia {
            		video = GeorgRinger\News\MediaRenderer\Video\Fal
            	}
