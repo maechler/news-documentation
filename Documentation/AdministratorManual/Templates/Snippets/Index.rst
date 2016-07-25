@@ -33,7 +33,7 @@ A nice solution would be to use this JavaScript jQuery snippet:
 Creating links with fluid
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Besides the ViewHelper ``<n:link />`` you can also use the ViewHelpers of flid itself:
+Besides the ViewHelper ``<n:link />`` you can also use the ViewHelpers of fluid itself:
 
 .. code-block:: xml
 
