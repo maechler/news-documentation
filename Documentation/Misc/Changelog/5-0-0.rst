@@ -36,10 +36,19 @@ Every previous available wizard and migration code has been removed. This includ
 ViewHelpers
 """""""""""
 
-The following ViewHelpers have been removed. Any usage will throw an exception:
+The following ViewHelpers have been removed:
 
-- FalMediaFactoryViewHelper
-- MediaFactoryViewHelper
+- ``<n:falMediaFactory />``
+- ``<n:mediaFactory />``
+
+The following ViewHelpers have been deprecated and have been removed now:
+
+- ``<n:format:date />``
+- ``<n:format:hsc />``: Use ``<f:format.htmlspecialchars />``
+- ``<n:format:htmlentities />``: Use ``<f:format.htmlentitiesDecode />``
+- ``<n:format:striptags />``: Use ``<f:format.striptags />``
+
+Any usage will throw an exception:
 
 ClassAliasMapping
 """""""""""""""""

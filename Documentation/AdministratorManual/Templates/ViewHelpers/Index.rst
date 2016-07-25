@@ -74,13 +74,9 @@ All ViewHelpers
    Be/Buttons/IconForRecordViewHelper
    Be/Buttons/IconViewHelper
 
-   Format/DateViewHelper
    Format/FileDownloadViewHelper
    Format/FileSizeViewHelper
-   Format/HscViewHelper
-   Format/HtmlentitiesDecodeViewHelper
    Format/NothingViewHelper
-   Format/StriptagsViewHelper
 
    Social/DisqusViewHelper
    Social/GooglePlusViewHelper
