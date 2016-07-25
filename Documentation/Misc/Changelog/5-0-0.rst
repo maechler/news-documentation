@@ -33,6 +33,14 @@ Every previous available wizard and migration code has been removed. This includ
 - Migration from custom category records to sys_category
 - Migration of the tt_content relation
 
+ViewHelpers
+"""""""""""
+
+The following ViewHelpers have been removed. Any usage will throw an exception:
+
+- FalMediaFactoryViewHelper
+- MediaFactoryViewHelper
+
 ClassAliasMapping
 """""""""""""""""
 The mapping from non-namespace classes to the namespace classes has been removed.

@@ -585,8 +585,6 @@ Properties
 	facebookLocale_                       string
 	disqusLocale_                         string
 	googlePlusLocale_                     string
-	interfaces_                           array
-	mediaRenderer_                        array
 	opengraph_                            array
 	`detail\.media`_                      array
 	`detail\.errorHandling`_              string
@@ -968,53 +966,6 @@ googlePlusLocale
           Locale used for google+
    Default
          en
-
-.. _tsInterfaces:
-
-interfaces
-""""""""""
-
-.. container:: table-row
-
-   Property
-         interfaces
-   Data type
-         array
-   Description
-          Media types like youtube videos are rendered with custom media renderers.
-          Those are registered in TypoScript with their class names and processed by order.
-   Default
-         ::
-
-            interfaces {
-           	falMedia {
-           		video = GeorgRinger\News\MediaRenderer\Video\Fal
-           	}
-           }
-
-
-.. _tsMediaRenderer:
-
-mediaRenderer
-""""""""""
-
-.. container:: table-row
-
-   Property
-         mediaRenderer
-   Data type
-         array
-   Description
-          Configuration of the various renderers (see configuration above). Currently only the renderer of Youtube videos uses those.
-   Default
-         ::
-
-			mediaRenderer {
-				youtube {
-					# Add additional parameters to the URL used in the iframes.
-					additionalParams =
-				}
-			}
 
 
 .. _tsOpengraph:
