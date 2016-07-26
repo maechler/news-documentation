@@ -41,7 +41,7 @@ The following ViewHelpers have been removed:
 - ``<n:falMediaFactory />``
 - ``<n:mediaFactory />``
 
-The following ViewHelpers have been deprecated and have been removed now:
+The following deprecated ViewHelpers have been removed:
 
 - ``<n:format:date />``
 - ``<n:format:hsc />``: Use ``<f:format.htmlspecialchars />``
