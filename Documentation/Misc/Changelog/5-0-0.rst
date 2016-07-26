@@ -52,7 +52,12 @@ The following deprecated ViewHelpers have been removed:
 - ``<n:format:htmlentities />``: Use ``<f:format.htmlentitiesDecode />``
 - ``<n:format:striptags />``: Use ``<f:format.striptags />``
 
-Any usage will throw an exception:
+Any usage will throw an exception.
+
+Record rendering in the page module
+"""""""""""""""""""""""""""""""""""
+
+The rendering of news records and category records in the page module has been removed.
 
 ClassAliasMapping
 """""""""""""""""

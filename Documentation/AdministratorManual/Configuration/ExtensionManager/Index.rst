@@ -27,8 +27,6 @@ Properties
 	==================================== ===================================== ====================
 	removeListActionFromFlexforms_        basic                                 List only
 	archiveDate_                          basic                                 date
-	pageModuleFieldsCategory_             basic                                 title,description
-	pageModuleFieldsNews_                 basic
 	rteForTeaser_                         records                               1
 	tagPid_                               records                               1
 	prependAtCopy_                        records                               1
@@ -70,26 +68,6 @@ Basically there are 2 possible variants:
 archiveDate
 """""""""""
 Define if the archive date field should be rendered as a date field or including the time as well.
-
-.. _extensionManagerPageModuleFieldsCategory:
-
-pageModuleFieldsCategory
-""""""""""""""""""""""""
-Define the fields which should be shown for category records in the page module.
-Empty the field if you don't want to show those records in the page module.
-
-.. _extensionManagerPageModuleFieldsNews:
-
-pageModuleFieldsNews
-""""""""""""""""""""
-Define the fields which should be shown for news records in the page module. A very simple API makes it possible to render a select box with multiple variants.
-
-The syntax is: ::
-
-	Label1=field1,field2,field3;Label2=field1,field2
-
-.. _extensionManagerShowMediaDescriptionField:
-
 
 rteForTeaser
 """"""""""""
