@@ -25,7 +25,6 @@ Properties
 	==================================== ===================================== ====================
 	Property                             Tab                                   Default
 	==================================== ===================================== ====================
-	removeListActionFromFlexforms_        basic                                 List only
 	archiveDate_                          basic                                 date
 	rteForTeaser_                         records                               1
 	tagPid_                               records                               1
@@ -36,9 +35,9 @@ Properties
 	manualSorting_                        records                               0
 	dateTimeNotRequired_                  records                               fal
 	showAdministrationModule_             backend modules                       0
-	showImporter_                         backend modules                       0
-	storageUidImporter_                   backend modules
-	resourceFolderImporter_               backend modules                       /news_import
+	showImporter_                         import module                         0
+	storageUidImporter_                   import module
+	resourceFolderImporter_               import module                         /news_import
 	==================================== ===================================== ====================
 
 Property details
@@ -49,19 +48,6 @@ Property details
    .. contents::
         :local:
         :depth: 1
-
-.. _extensionManager-removeListActionFromFlexforms:
-
-removeListActionFromFlexforms
-"""""""""""""""""""""""""""""
-This switch enables you to configure the behaviour of the list view if the URL contains the link to a single view.
-Basically there are 2 possible variants:
-
-* **List only**: No matter if a single news is defined in the URL, the plugin will still render the list view. You will need a separate detail view somewhere.
-* **List & Detail**: If a single news is defined in the URL, the single view will be shown.
-
-.. warning::
-	If you have created a plugin and change the setting, you need to reselect the new view in the plugin again!
 
 .. _extensionManagerArchiveDate:
 
