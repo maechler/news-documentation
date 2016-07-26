@@ -12,6 +12,10 @@
 Important changes
 -----------------
 
+Full support of FAL
+^^^^^^^^^^^^^^^^^^^
+The full range of FAL assets can now be used, e.g. videos from youtube and vimeo and every file type which is supported by the various file renderers of the core and 3rd party extensions.
+
 Removal of old code
 ^^^^^^^^^^^^^^^^^^^
 
