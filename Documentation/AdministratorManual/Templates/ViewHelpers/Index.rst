@@ -74,8 +74,6 @@ All ViewHelpers
    Be/Buttons/IconForRecordViewHelper
    Be/Buttons/IconViewHelper
 
-   Format/FileDownloadViewHelper
-   Format/FileSizeViewHelper
    Format/NothingViewHelper
 
    Social/DisqusViewHelper

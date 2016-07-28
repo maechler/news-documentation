@@ -577,7 +577,6 @@ Properties
 	hideIdList_                           string
 	orderByAllowed_                       string
 	`analytics\.social`_                  array
-	relatedFiles_                         array
 	demandClass_                          string
 	`link\.hrDate`_                       integer
 	`link\.typesOpeningInNewWindow`_      string
@@ -808,30 +807,6 @@ analytics.social
            	facebookLike = 1
            	facebookShare = 1
            	twitter = 1
-           }
-
-.. _tsRelatedFiles:
-
-relatedFiles
-""""""""""""
-.. container:: table-row
-
-   Property
-         relatedFiles
-   Data type
-         array
-   Description
-         Configuration to render the related files. This is used in the ViewHelper :code:`n:format.fileDownload`.
-   Default
-         ::
-
-           relatedFiles {
-           	fileSizeLabels =
-           	download {
-           		labelStdWrap {
-                      cObject = TEXT
-           		}
-           	}
            }
 
 .. _tsDemandClass:
