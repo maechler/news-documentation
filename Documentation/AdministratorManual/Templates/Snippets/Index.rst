@@ -69,3 +69,16 @@ and
 Use current content element in the Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you ever need information from the content element itself, you can use ``{contentObjectData.header}``.
+
+Sort tags
+^^^^^^^^^
+If you want to sort the tags of a news item, you can use a custom ViewHelper or ``EXT:vhs``:
+
+.. code-block:: typoscript
+
+	<ul>
+		<f:for each="{newsItem.tags->v:iterator.sort(order: 'ASC', sortBy: 'title')}" as="tag">
+			<li>{tag.title}</li>
+		</f:for>
+	</ul>
+
