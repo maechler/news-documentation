@@ -589,6 +589,7 @@ Properties
 	`detail\.errorHandling`_              string
 	`detail\.checkPidOfNewsRecord`_       boolean
 	`detail\.registerProperties`_         string
+	`detail\.showPrevNext`_               boolean
 	`detail\.showSocialShareButtons`_     boolean
 	`detail\.disqusShortname`_            string
 	`list\.media`_                        array
@@ -1059,6 +1060,21 @@ detail.checkPidOfNewsRecord
          If those don't match, the news record won't be displayed.
    Default
          0
+
+.. _tsDetailShowPrevNext:
+
+detail.showPrevNext
+"""""""""""""""""""""""""
+.. container:: table-row
+
+   Property
+         detail.showPrevNext
+   Data type
+         boolean
+   Description
+         If enabled, links to the previous and next news records are shown
+   Default
+          0
 
 .. _tsDetailRegisterProperties:
 
