@@ -44,6 +44,11 @@ The following ViewHelpers have been removed:
 
 - ``<n:falMediaFactory />``
 - ``<n:mediaFactory />``
+- ``<n:be.buttons.iconForRecord />``
+- ``<n:be.buttons.icon />``
+- ``<n:be.clickmenu />``
+- ``<n:be.editRecord />``
+- ``<n:be.multiEditLink />``
 
 The following deprecated ViewHelpers have been removed:
 

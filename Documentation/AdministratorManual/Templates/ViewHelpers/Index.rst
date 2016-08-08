@@ -68,12 +68,6 @@ All ViewHelpers
    TargetLinkViewHelper
    TitleTagViewHelper
 
-   Be/ClickmenuViewHelper
-   Be/MultiEditLinkViewHelper
-
-   Be/Buttons/IconForRecordViewHelper
-   Be/Buttons/IconViewHelper
-
    Format/NothingViewHelper
 
    Social/DisqusViewHelper
