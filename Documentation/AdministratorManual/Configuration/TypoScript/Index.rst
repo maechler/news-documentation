@@ -965,6 +965,8 @@ opengraph
           - *og:description* is filled with the field **Description** or if that is empty with the **Teaser**.
           - *og:image* is filled with the first preview image.
           - *og:url* is filled with the current url.
+
+          Check out https://dev.twitter.com/cards/getting-started for more information regarding the twitter cards.
    Default
          ::
 
@@ -982,6 +984,11 @@ opengraph
            region =
            postal-code =
            country-name =
+           twitter {
+             card = {$plugin.tx_news.opengraph.twitter.card}
+             site = {$plugin.tx_news.opengraph.twitter.site}
+             creator = {$plugin.tx_news.opengraph.twitter.creator}
+           }
 		}
 
 .. _tsDetailMedia:

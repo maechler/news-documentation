@@ -9,12 +9,34 @@
         :depth: 3
 
 
-Important changes
------------------
+Features
+--------
 
 Full support of FAL
 ^^^^^^^^^^^^^^^^^^^
 The full range of FAL assets can now be used, e.g. videos from youtube and vimeo and every file type which is supported by the various file renderers of the core and 3rd party extensions.
+
+Twitter card support
+^^^^^^^^^^^^^^^^^^^^
+Twitter supports some additional meta tags if an URL is shared. The following meta tags have been added to the the default templates:
+
+- `<meta name="twitter:card" content="..." />`
+- `<meta name="twitter:site" content="..." />`
+- `<meta name="twitter:creator" content="..." />`
+
+All 3 can be filled by using constants.
+
+As twitter recognizes and uses the og:image meta tags as well, those are not duplicated for twitter. If you need a fine tuning, please take a look at https://dev.twitter.com/cards/getting-started.
+
+Support of shariff
+^^^^^^^^^^^^^^^^^^
+If the extension rx_shariff (https://typo3.org/extensions/repository/view/rx_shariff) is installed, it will be used for the social sharing links instead of the custom ViewHelpers.
+Shariff enables website users to share their favorite content without compromising their privacy.
+
+Thanks to Markus Klein and https://reelworx.at/ for providing this extension!
+
+Important changes
+-----------------
 
 Removal of old code
 ^^^^^^^^^^^^^^^^^^^
