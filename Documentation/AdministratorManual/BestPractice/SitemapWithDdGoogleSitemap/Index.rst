@@ -42,6 +42,29 @@ Define the language uid which should be used. Use one call for each language
 
 By adding the optional argument ``&type=news`` a news sitemap is used instead of a default sitemap type. Check out https://support.google.com/news/publisher/answer/74288?hl=en for details.
 
+Human readable dates
+""""""""""""""""""""
+If you need links with human readable dates, you can achieve this with the following TypoScript:
+
+.. code-block:: typoscript
+
+        tx_ddgooglesitemap.tx_news {
+          hrDate = 1
+          hrDate {
+            day = j
+            month = n
+            year = Y
+          }
+        }
+
+Skip controller and action
+""""""""""""""""""""""""""
+To skip the controller and action, use the following TypoScript:
+
+.. code-block:: typoscript
+
+        tx_ddgooglesitemap.tx_news.skipControllerAndAction
+
 Integration
 ^^^^^^^^^^^
 Use the configured URL and add it to the scheduler task of dd_googlesitemap.
