@@ -63,7 +63,7 @@ To skip the controller and action, use the following TypoScript:
 
 .. code-block:: typoscript
 
-        tx_ddgooglesitemap.tx_news.skipControllerAndAction
+        tx_ddgooglesitemap.tx_news.skipControllerAndAction = 1
 
 Integration
 ^^^^^^^^^^^
