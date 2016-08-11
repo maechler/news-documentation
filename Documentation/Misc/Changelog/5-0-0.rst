@@ -12,6 +12,14 @@
 Features
 --------
 
+Reworked administration module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The record listing in the administration module is now based on the record listing of the list module. There are several advantages
+
+- See translations & workspace overlays
+- Exact same behaviour as in the list module
+- Less custom code
+
 Full support of FAL
 ^^^^^^^^^^^^^^^^^^^
 The full range of FAL assets can now be used, e.g. videos from youtube and vimeo and every file type which is supported by the various file renderers of the core and 3rd party extensions.
@@ -20,9 +28,9 @@ Twitter card support
 ^^^^^^^^^^^^^^^^^^^^
 Twitter supports some additional meta tags if an URL is shared. The following meta tags have been added to the the default templates:
 
-- `<meta name="twitter:card" content="..." />`
-- `<meta name="twitter:site" content="..." />`
-- `<meta name="twitter:creator" content="..." />`
+- ``<meta name="twitter:card" content="..." />``
+- ``<meta name="twitter:site" content="..." />``
+- ``<meta name="twitter:creator" content="..." />``
 
 All 3 can be filled by using constants.
 
