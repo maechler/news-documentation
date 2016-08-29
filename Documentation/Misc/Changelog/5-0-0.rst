@@ -52,6 +52,10 @@ Thanks to Markus Klein and https://reelworx.at/ for providing this extension!
 Important changes
 -----------------
 
+Repositioning of import module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import module is independ from the page tree and for sure nothing what an editor should be use. Therefore it is moved into the module section "System".
+
 Removal of old code
 ^^^^^^^^^^^^^^^^^^^
 
@@ -75,7 +79,6 @@ Every previous available wizard and migration code has been removed. This includ
 
 ViewHelpers
 """""""""""
-
 The following ViewHelpers have been removed:
 
 - ``<n:falMediaFactory />``
@@ -99,7 +102,6 @@ Any usage will throw an exception.
 
 Record rendering in the page module
 """""""""""""""""""""""""""""""""""
-
 The rendering of news records and category records in the page module has been removed.
 
 ClassAliasMapping
