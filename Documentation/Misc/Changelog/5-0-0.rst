@@ -81,6 +81,7 @@ ViewHelpers
 """""""""""
 The following ViewHelpers have been removed:
 
+- ``<n:categoryChildren />``
 - ``<n:falMediaFactory />``
 - ``<n:mediaFactory />``
 - ``<n:be.buttons.iconForRecord />``

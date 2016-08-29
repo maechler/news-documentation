@@ -56,7 +56,6 @@ All ViewHelpers
    :titlesonly:
    :glob:
 
-   CategoryChildrenViewHelper
    ExcludeDisplayedNewsViewHelper
    HeaderDataViewHelper
    IncludeFileViewHelper
