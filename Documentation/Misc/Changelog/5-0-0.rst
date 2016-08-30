@@ -52,6 +52,13 @@ Thanks to Markus Klein and https://reelworx.at/ for providing this extension!
 Important changes
 -----------------
 
+New icons
+^^^^^^^^^
+New svg icons are used at the following places:
+
+- Records (News, Tag, Link)
+- Plugin wizard
+
 Repositioning of import module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The import module is independ from the page tree and for sure nothing what an editor should be use. Therefore it is moved into the module section "System".
