@@ -33,3 +33,15 @@ to clear all caches of pages on which the news plugins are used but beware of pe
 .. Hint::
 
 	The mentioned TCEMAIN settings are part of the TYPO3 core and can be used therefore not only for the news extension.
+
+Include Starttime / Endtime in Page Cache Expiration
+----------------------------------------------------
+
+In order to refresh the cache of a page showing e.g. news list with news records have a starttime / endtime set, the page cache must be configured to do so.
+See https://docs.typo3.org/typo3cms/TyposcriptReference/Setup/Config/Index.html#cache
+
+::
+
+	config.cache.133 = tx_news_domain_model_news:108
+	
+This includes the tx_news_domain_model_news records on page 108 (storage page) in the cache lifetime calculation for page 133 (e.g. list view page):
